@@ -54,6 +54,7 @@ catkin_install_python(PROGRAMS
   nodes/rep117_filter.py
   nodes/tf_remove_child_frames.py
   nodes/kfp_move.py
+  nodes/laithlin_move.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 # Mark other files for installation (e.g. launch and bag files, etc.)
